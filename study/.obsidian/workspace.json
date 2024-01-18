@@ -6,6 +6,7 @@
       {
         "id": "cbe2cc696d5c0de3",
         "type": "tabs",
+        "dimension": 74.48630136986301,
         "children": [
           {
             "id": "4f32ae5e9d5ea855",
@@ -18,15 +19,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e5c8ea21f7319940",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CORS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
-        "id": "dabcb45e9c2bce88",
+        "id": "e2f73c6295f34cdc",
         "type": "tabs",
+        "dimension": 25.51369863013699,
         "children": [
           {
-            "id": "f3df3fbb34bd9a7e",
+            "id": "180d6234354c0dcf",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -99,7 +114,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +130,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,9 +151,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Welcome.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -160,8 +171,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4f32ae5e9d5ea855",
+  "active": "180d6234354c0dcf",
   "lastOpenFiles": [
+    "Obsidian Git 테스트.md",
+    "CORS.md",
     "Welcome.md"
   ]
 }
