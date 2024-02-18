@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CORS.md",
+                "file": "rAF 성능측정.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "c20315cb3ab0b266",
@@ -114,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "rAF 성능측정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "rAF 성능측정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +153,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "rAF 성능측정.md"
+              }
             }
           }
         ]
@@ -171,10 +175,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "180d6234354c0dcf",
+  "active": "e5c8ea21f7319940",
   "lastOpenFiles": [
     "Obsidian Git 테스트.md",
-    "CORS.md",
+    "rAF 성능측정.md",
     "Welcome.md"
   ]
 }
