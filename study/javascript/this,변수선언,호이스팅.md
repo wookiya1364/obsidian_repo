@@ -39,18 +39,32 @@ window.f2() === window; // true
 
 예시2
 function add(c, d) {
-  return this.a + this.b + c + d;
+  return (this.a || 0) + (this.b || 0) + c + d;
 }
 
-const o = { a: 1, b: 3 };
+function strictAdd(c, d) {
+  'use strict';
+  return (this.a || 0) + (this.b || 0) + c + d;
+}
+
+const obj = { a: 1, b: 3 };
 
 // 첫 번째 인자는 'this'로 사용할 객체이고,
 // 이어지는 인자들은 함수 호출에서 인수로 전달된다.
-add.call(o, 5, 7); // 16
+add.call(obj, 5, 7); // 16
+strictAdd.call(obj, 5, 7) // 16
+
+
+// 첫 번째 인자에 null을 넣으면 browser에서는 this가 window 객체를 호출한다.
+// 엄격모드에서는 this가 null이므로 Cannot read properties를 발생시킨다.
+add.call(null, 5, 7) // 12
+strictAdd.call(null, 5, 7) // Uncaught TypeError: Cannot read properties of null (reading 'a')
+
+
 
 // 첫 번째 인자는 'this'로 사용할 객체이고,
 // 두 번째 인자는 함수 호출에서 인수로 사용될 멤버들이 위치한 배열이다.
-add.apply(o, [10, 20]); // 34
+add.apply(obj, [10, 20]); // 34
 
 ============================================
 
@@ -120,7 +134,7 @@ constBind2(); // var (bind는 한 번만 동작함!)
 #### 화살표 함수에서의 this
 *  화살표 함수를 call(), bind(), apply()를 사용해 호출할 때 this의 값을 정해주더라도 무시한다. 
 사용할 매개변수를 정해주는 건 문제 없지만, 첫 번째 매개변수(thisArg)는 null을 지정해야 한다.
-* 어떤 방법을 사용하든 foo의 this는 생성 시점의 것으로 설정한다.(위 예시에서는 global 객체)
+* 어떤 방법을 사용하든 하단 foo에서의 this는 생성 시점의 것으로 설정한다.(위 예시에서는 global 객체)
 다른 함수 내에서 생성된 화살표 함수에도 동일하게 적용한다. 
 this는 싸여진 렉시컬 컨텍스트의 것으로 유지한다.
 
