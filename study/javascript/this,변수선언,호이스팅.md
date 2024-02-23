@@ -40,7 +40,7 @@ window.f2() === window; // true
 예시2
 function add(c, d) {
   return (this.a || 0) + (this.b || 0) + c + d;
-}
+}  
 
 function strictAdd(c, d) {
   'use strict';
@@ -84,7 +84,11 @@ console.log(o.a, o.f(), o.g(), o.h()); // 37, 37, 첫번째 변경, 첫번째 �
 
 ```
 
-<br><br>
+<br>
+
+---
+
+<br>
 
 #### this에 원하는 객체를 지정하려면 call, apply, bind를 사용하여 전달한다.
 
@@ -101,8 +105,8 @@ const transferConstObj = "전역 const";
 
 function getThis() {
   console.log(this.transferObj); // 함수 호출 방식에 따라 값이 달라짐
-//   console.log(this.transferLetObj); // undefined
-//   console.log(this.transferConstObj); // undefined
+  console.log(this.transferLetObj); // undefined
+  console.log(this.transferConstObj); // undefined
 }
 
 getThis(); // 전역 var. 함수 내에서 설정되지 않았으므로 global/window 객체로 초기값을 설정한다.
@@ -129,7 +133,11 @@ constBind2(); // var (bind는 한 번만 동작함!)
 ```
 
 
-<br><br>
+<br>
+
+---
+
+<br>
 
 #### 화살표 함수에서의 this
 *  화살표 함수를 call(), bind(), apply()를 사용해 호출할 때 this의 값을 정해주더라도 무시한다. 
@@ -164,8 +172,106 @@ const fooBind = foo.bind(obj);
 console.log(fooBind() === globalObject); // true
 ```
 
+<br>
 
-<br><br>
+---
+
+<br>
+
+#### 객체의 프로토타입 체인에서의 this
+- 함수를 어떤 객체의 메서드로 호출하면 this의 값은 그 객체를 사용
+
+```javascript
+var o = {
+  f: function () {
+    return this.a + this.b;
+  },
+};
+var p = Object.create(o);
+p.a = 1;
+p.b = 4;
+
+console.log(p.f()); // 5
+
+
+var o = {
+  d: {
+      f: function () {
+        return this.a + this.b + 5;
+      },
+  }
+};
+
+p.d.a = 1;
+p.d.b = 2;
+console.log(p.d.f()); // 8
+```
+
+<br>
+
+---
+
+<br>
+
+#### 접근자와 설정자의 this
+- 함수를 접근자와 설정자에서 호출하더라도 동일
+- 접근자나 설정자로 사용하는 함수의 this는, 접근하거나 설정하는 속성을 가진 객체 취급
+
+```javascript
+function sum() {
+  return this.a + this.b + this.c;
+}
+
+var o = {
+  a: 1,
+  b: 2,
+  c: 3,
+  get average() {
+    return (this.a + this.b + this.c) / 3;
+  },
+};
+
+Object.defineProperty(o, "sum", {
+  get: sum,
+  enumerable: true,
+  configurable: true,
+});
+
+console.log(o.average, o.sum); // 2, 6
+
+```
+
+<br>
+
+---
+
+<br>
+
+#### 생성자 this
+- 함수를 new 키워드와 함께 생성자로 사용하면 this는 새로 생긴 객체 취급
+
+```javascript
+function C() {
+  this.a = 37;
+}
+
+var o = new C();
+console.log(o.a); // 37
+
+function C2() {
+  this.a = 37;
+  return { a: 38 };
+}
+
+o = new C2();
+console.log(o.a); // 38
+```
+
+<br>
+
+---
+
+<br>
 
 #### 변수 선언
 
@@ -197,7 +303,11 @@ console.log(constObj); //Uncaught ReferenceError: constObj is not defined
 const constObj = { transferObj: "var " }; //Uncaught ReferenceError: constObj is not defined
 ```
 
-<br><br>
+<br>
+
+---
+
+<br>
 
 ```javascript
 
