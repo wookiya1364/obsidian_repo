@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "452e45d3780c8053",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "기초/무제 파일.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/비동기작업.md",
+                "file": "기초/무제 파일.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/비동기작업.md",
+                "file": "기초/무제 파일.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/비동기작업.md"
+                "file": "기초/무제 파일.md"
               }
             }
           }
@@ -146,13 +159,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e5c8ea21f7319940",
+  "active": "f0f601f610cb7352",
   "lastOpenFiles": [
+    "javascript/비동기작업.md",
+    "기초/무제 파일.md",
+    "기초",
     "javascript/고차함수,화살표함수.md",
-    "무제 폴더",
     "react/react.md",
     "react",
-    "javascript/비동기작업.md",
     "javascript/스프레드,레스트.md",
     "javascript/this,변수선언,호이스팅.md",
     "javascript/이벤트버블링,캡쳐링,위임.md",
@@ -166,7 +180,6 @@
     "javascript/에러핸들링.md",
     "javascript",
     "Welcome.md",
-    "무제 파일.md",
     "Obsidian Git 테스트.md"
   ]
 }
