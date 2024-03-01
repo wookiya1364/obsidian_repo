@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기초/ㅇㅇ.md",
+                "file": "javascript/비동기작업.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기초/ㅇㅇ.md",
+                "file": "javascript/비동기작업.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기초/ㅇㅇ.md",
+                "file": "javascript/비동기작업.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기초/ㅇㅇ.md"
+                "file": "javascript/비동기작업.md"
               }
             }
           }
@@ -159,10 +159,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "452e45d3780c8053",
+  "active": "f0f601f610cb7352",
   "lastOpenFiles": [
-    "javascript/비동기작업.md",
     "기초/ㅇㅇ.md",
+    "javascript/비동기작업.md",
     "기초",
     "javascript/고차함수,화살표함수.md",
     "react/react.md",
