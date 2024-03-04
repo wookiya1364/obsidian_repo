@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기초/ㅇㅇ.md",
+                "file": "javascript/브라우저 렌더링.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기초/ㅇㅇ.md",
+                "file": "javascript/브라우저 렌더링.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기초/ㅇㅇ.md",
+                "file": "javascript/브라우저 렌더링.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기초/ㅇㅇ.md"
+                "file": "javascript/브라우저 렌더링.md"
               }
             }
           }
@@ -185,11 +185,13 @@
   },
   "active": "452e45d3780c8053",
   "lastOpenFiles": [
+    "javascript/Promise,async&await.md",
+    "javascript/이벤트버블링,캡쳐링,위임.md",
+    "기초/ㅇㅇ.md",
     "javascript/고차함수,화살표함수.md",
     "performance/rAF 성능측정.md",
     "javascript/블로킹,논블로킹.md",
     "javascript/브라우저 렌더링.md",
-    "javascript/Promise,async&await.md",
     "typescript/컴파일 과정.md",
     "typescript",
     "javascript/스프레드,레스트.md",
@@ -200,8 +202,6 @@
     "javascript/this,변수선언,호이스팅.md",
     "javascript/javascript.md",
     "javascript/에러핸들링.md",
-    "javascript/이벤트버블링,캡쳐링,위임.md",
-    "기초/ㅇㅇ.md",
     "기초",
     "react/react.md",
     "react",
