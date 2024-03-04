@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "javascript/Promise,async&await.md",
+                "file": "javascript/기명함수,익명함수.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/Promise,async&await.md",
+                "file": "javascript/기명함수,익명함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/Promise,async&await.md",
+                "file": "javascript/기명함수,익명함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/Promise,async&await.md"
+                "file": "javascript/기명함수,익명함수.md"
               }
             }
           }
@@ -185,23 +185,23 @@
   },
   "active": "452e45d3780c8053",
   "lastOpenFiles": [
-    "javascript/this,변수선언,호이스팅.md",
     "javascript/고차함수,화살표함수.md",
+    "javascript/기명함수,익명함수.md",
+    "javascript/스프레드,레스트.md",
+    "javascript/에러핸들링.md",
+    "javascript/Promise,async&await.md",
+    "javascript/this,변수선언,호이스팅.md",
     "javascript/이벤트버블링,캡쳐링,위임.md",
     "javascript/브라우저 렌더링.md",
-    "javascript/Promise,async&await.md",
     "기초/ㅇㅇ.md",
     "performance/rAF 성능측정.md",
     "javascript/블로킹,논블로킹.md",
     "typescript/컴파일 과정.md",
     "typescript",
-    "javascript/스프레드,레스트.md",
     "javascript/식별자.md",
     "javascript/비동기작업.md",
-    "javascript/기명함수,익명함수.md",
     "performance/브라우저메모리.md",
     "javascript/javascript.md",
-    "javascript/에러핸들링.md",
     "기초",
     "react/react.md",
     "react",
