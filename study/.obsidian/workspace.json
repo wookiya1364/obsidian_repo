@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "javascript/브라우저 렌더링.md",
+                "file": "javascript/이벤트버블링,캡쳐링,위임.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/브라우저 렌더링.md",
+                "file": "javascript/이벤트버블링,캡쳐링,위임.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/브라우저 렌더링.md",
+                "file": "javascript/이벤트버블링,캡쳐링,위임.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/브라우저 렌더링.md"
+                "file": "javascript/이벤트버블링,캡쳐링,위임.md"
               }
             }
           }
@@ -185,13 +185,13 @@
   },
   "active": "452e45d3780c8053",
   "lastOpenFiles": [
+    "javascript/브라우저 렌더링.md",
     "javascript/Promise,async&await.md",
     "javascript/이벤트버블링,캡쳐링,위임.md",
     "기초/ㅇㅇ.md",
     "javascript/고차함수,화살표함수.md",
     "performance/rAF 성능측정.md",
     "javascript/블로킹,논블로킹.md",
-    "javascript/브라우저 렌더링.md",
     "typescript/컴파일 과정.md",
     "typescript",
     "javascript/스프레드,레스트.md",
