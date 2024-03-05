@@ -185,6 +185,7 @@
   },
   "active": "452e45d3780c8053",
   "lastOpenFiles": [
+    "react/리렌더링원리.md",
     "performance/rAF 성능측정.md",
     "performance/브라우저메모리.md",
     "javascript/Promise,async&await.md",
