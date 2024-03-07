@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "javascript/GC.md",
+                "file": "javascript/this,변수선언,호이스팅.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/GC.md",
+                "file": "javascript/this,변수선언,호이스팅.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/GC.md",
+                "file": "javascript/this,변수선언,호이스팅.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/GC.md"
+                "file": "javascript/this,변수선언,호이스팅.md"
               }
             }
           }
@@ -185,13 +185,13 @@
   },
   "active": "452e45d3780c8053",
   "lastOpenFiles": [
+    "javascript/GC.md",
     "javascript/javascript.md",
     "typescript/컴파일 과정.md",
     "react/이벤트처리.md",
     "react/상태관리.md",
     "react/리렌더링.md",
     "javascript/웹워커.md",
-    "javascript/GC.md",
     "react/리렌더링원리.md",
     "performance/rAF 성능측정.md",
     "performance/브라우저메모리.md",
