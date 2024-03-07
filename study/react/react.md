@@ -2,12 +2,13 @@
 
 ---
 
-##### React Context와 상태라이브러리의 특징
+#### 배달의민족 아키텍쳐
 
-- Context
-    - Prop을 이용하지 않고, 데이터를 전달할 때 생기는 props drilling 문제를 예방한다.
-    - 주목적은 읽기 용도이다. 상태(State) 업데이트 용도로 만들어지지 않았다.
-    - 
+![앱레이어](https://github.com/wookiya1364/obsidian_repo/assets/16011536/0fa6fa40-4bf0-4c37-9a02-9d114d4d8261)
+
+
+
+
 
 
 /**
