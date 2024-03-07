@@ -14,20 +14,13 @@
 const GC = new FinalizationRegistry(message => console.log(message));
 
 function func() {
-    const obj = {};
-    GC.register(obj, 'obj has been collected');
+    let count = 0;
+    GC.register(count, 'obj has been collected');
+    Array.from({ length: 50000 }, () => () => {});
+	if (counter > 5000) return;
+	counter++;
+	func();
 }
 
-function init() {
-    func();
-    let uid= 0;
-    for(let idx=0; idx<100_000; idx++) {
-        uid = idx;
-        // console.log(uid)
-    }
-
-}
-
-init();
-
+func();
 ```
