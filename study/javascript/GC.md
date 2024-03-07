@@ -12,13 +12,13 @@
 
 ```jsx
 const GC = new FinalizationRegistry(message => console.log(message));
+let count = 0;
+GC.register({}, ' has been collected');
 
-function func() {
-    let count = 0;
-    GC.register(count, 'obj has been collected');
+function func() { 
     Array.from({ length: 50000 }, () => () => {});
-	if (counter > 5000) return;
-	counter++;
+	if (count > 5000) return;
+	count++;
 	func();
 }
 
