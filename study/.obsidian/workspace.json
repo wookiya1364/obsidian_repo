@@ -185,6 +185,11 @@
   },
   "active": "452e45d3780c8053",
   "lastOpenFiles": [
+    "react/이벤트처리.md",
+    "react/상태관리.md",
+    "react/리렌더링.md",
+    "javascript/웹워커.md",
+    "javascript/GC.md",
     "react/리렌더링원리.md",
     "performance/rAF 성능측정.md",
     "performance/브라우저메모리.md",
@@ -210,7 +215,6 @@
     "rAF 성능측정.md",
     "performance",
     "javascript",
-    "Welcome.md",
-    "Obsidian Git 테스트.md"
+    "Welcome.md"
   ]
 }
