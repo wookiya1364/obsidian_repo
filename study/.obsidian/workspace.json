@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "typescript/컴파일 과정.md",
+                "file": "javascript/GC.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "typescript/컴파일 과정.md",
+                "file": "javascript/GC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "typescript/컴파일 과정.md",
+                "file": "javascript/GC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "typescript/컴파일 과정.md"
+                "file": "javascript/GC.md"
               }
             }
           }
@@ -185,6 +185,8 @@
   },
   "active": "452e45d3780c8053",
   "lastOpenFiles": [
+    "javascript/javascript.md",
+    "typescript/컴파일 과정.md",
     "react/이벤트처리.md",
     "react/상태관리.md",
     "react/리렌더링.md",
@@ -196,7 +198,6 @@
     "javascript/Promise,async&await.md",
     "javascript/CSRF,XSS.md",
     "javascript/이벤트버블링,캡쳐링,위임.md",
-    "javascript/javascript.md",
     "javascript/에러핸들링.md",
     "javascript/식별자.md",
     "javascript/스프레드,레스트.md",
@@ -206,7 +207,6 @@
     "javascript/고차함수,화살표함수.md",
     "javascript/this,변수선언,호이스팅.md",
     "기초/ㅇㅇ.md",
-    "typescript/컴파일 과정.md",
     "typescript",
     "javascript/비동기작업.md",
     "기초",
