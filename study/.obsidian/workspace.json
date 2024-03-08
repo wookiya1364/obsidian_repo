@@ -185,6 +185,8 @@
   },
   "active": "452e45d3780c8053",
   "lastOpenFiles": [
+    "react/참고_아키텍처.md",
+    "react/strictmode.md",
     "react/상태관리.md",
     "react/이벤트처리.md",
     "react/react.md",
@@ -212,9 +214,7 @@
     "javascript/비동기작업.md",
     "기초",
     "react",
-    "rAF 성능측정.md",
     "performance",
-    "javascript",
-    "Welcome.md"
+    "javascript"
   ]
 }
