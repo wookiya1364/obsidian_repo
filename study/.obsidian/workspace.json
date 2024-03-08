@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/리렌더링.md",
+                "file": "추천_extention/vscode.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/리렌더링.md",
+                "file": "추천_extention/vscode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/리렌더링.md",
+                "file": "추천_extention/vscode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/리렌더링.md"
+                "file": "추천_extention/vscode.md"
               }
             }
           }
@@ -185,6 +185,7 @@
   },
   "active": "452e45d3780c8053",
   "lastOpenFiles": [
+    "react/리렌더링.md",
     "추천_extention/vscode.md",
     "추천_extention",
     "javascript/render-blocking-resources.md",
@@ -204,7 +205,6 @@
     "javascript/this,변수선언,호이스팅.md",
     "javascript/javascript.md",
     "typescript/컴파일 과정.md",
-    "react/리렌더링.md",
     "react/리렌더링원리.md",
     "performance/rAF 성능측정.md",
     "performance/브라우저메모리.md",
