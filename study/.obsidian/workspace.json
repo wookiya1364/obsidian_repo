@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/리렌더링.md",
+                "file": "javascript/기명함수,익명함수.md",
                 "mode": "preview",
                 "source": false
               }
@@ -49,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "performance/rAF 성능측정.md",
+                "file": "react/리렌더링.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -183,9 +183,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "452e45d3780c8053",
+  "active": "1735fc9de738ee17",
   "lastOpenFiles": [
     "react/상태관리.md",
+    "react/이벤트처리.md",
+    "react/참고_아키텍처.md",
+    "react/strictmode.md",
+    "performance/rAF 성능측정.md",
+    "javascript/스프레드,레스트.md",
+    "javascript/기명함수,익명함수.md",
+    "react/리렌더링.md",
     "javascript/this,변수선언,호이스팅.md",
     "javascript/render-blocking-resources.md",
     "javascript/Promise,async&await.md",
@@ -195,21 +202,14 @@
     "javascript/에러핸들링.md",
     "javascript/웹워커.md",
     "javascript/식별자.md",
-    "javascript/스프레드,레스트.md",
     "javascript/블로킹,논블로킹.md",
-    "javascript/기명함수,익명함수.md",
     "추천_extention/vscode.md",
-    "react/리렌더링.md",
     "추천_extention",
-    "react/참고_아키텍처.md",
-    "react/strictmode.md",
-    "react/이벤트처리.md",
     "react/react.md",
     "javascript/브라우저 렌더링.md",
     "javascript/CSRF,XSS.md",
     "typescript/컴파일 과정.md",
     "react/리렌더링원리.md",
-    "performance/rAF 성능측정.md",
     "performance/브라우저메모리.md",
     "javascript/고차함수,화살표함수.md",
     "typescript",
