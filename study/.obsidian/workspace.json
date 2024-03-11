@@ -61,24 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "기초/멀티프로세스, 멀티스레드.md",
+                "file": "javascript/브라우저 렌더링.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "2ab5e0c526e26819",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.8"
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -144,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "기초/멀티프로세스, 멀티스레드.md",
+                "file": "javascript/브라우저 렌더링.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "기초/멀티프로세스, 멀티스레드.md",
+                "file": "javascript/브라우저 렌더링.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "기초/멀티프로세스, 멀티스레드.md"
+                "file": "javascript/브라우저 렌더링.md"
               }
             }
           }
@@ -205,10 +195,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2ab5e0c526e26819",
+  "active": "b75af67faefe7b86",
   "lastOpenFiles": [
-    "기초/ㅇㅇ.md",
     "기초/멀티프로세스, 멀티스레드.md",
+    "기초/ㅇㅇ.md",
     "javascript/this,변수선언,호이스팅.md",
     "react/이벤트처리.md",
     "react/참고_아키텍처.md",
