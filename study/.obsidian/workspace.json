@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "javascript/Promise,async&await.md",
+                "file": "javascript/브라우저 렌더링.md",
                 "mode": "preview",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/Promise,async&await.md",
+                "file": "javascript/브라우저 렌더링.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/Promise,async&await.md",
+                "file": "javascript/브라우저 렌더링.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/Promise,async&await.md"
+                "file": "javascript/브라우저 렌더링.md"
               }
             }
           }
@@ -197,33 +197,33 @@
   },
   "active": "b75af67faefe7b86",
   "lastOpenFiles": [
-    "javascript/에러핸들링.md",
-    "javascript/식별자.md",
-    "javascript/웹워커.md",
+    "javascript/블로킹,논블로킹.md",
     "javascript/이벤트버블링,캡쳐링,위임.md",
+    "javascript/식별자.md",
+    "javascript/스프레드,레스트.md",
+    "javascript/브라우저 렌더링.md",
+    "javascript/기명함수,익명함수.md",
+    "performance/rAF 성능측정.md",
+    "performance/브라우저메모리.md",
+    "javascript/render-blocking-resources.md",
+    "javascript/고차함수,화살표함수.md",
+    "javascript/에러핸들링.md",
     "javascript/CSRF,XSS.md",
+    "javascript/GC.md",
+    "javascript/javascript.md",
+    "javascript/Promise,async&await.md",
+    "javascript/웹워커.md",
     "typescript/컴파일 과정.md",
     "react/리렌더링.md",
     "react/strictmode.md",
-    "javascript/브라우저 렌더링.md",
     "기초/멀티프로세스, 멀티스레드.md",
     "기초/ㅇㅇ.md",
     "javascript/this,변수선언,호이스팅.md",
     "react/이벤트처리.md",
     "react/참고_아키텍처.md",
     "react/상태관리.md",
-    "performance/rAF 성능측정.md",
-    "javascript/고차함수,화살표함수.md",
-    "javascript/기명함수,익명함수.md",
-    "javascript/블로킹,논블로킹.md",
-    "javascript/render-blocking-resources.md",
-    "javascript/Promise,async&await.md",
-    "javascript/GC.md",
-    "javascript/javascript.md",
-    "performance/브라우저메모리.md",
     "코드리뷰/코드리뷰 방법.md",
     "코드리뷰",
-    "javascript/스프레드,레스트.md",
     "추천_extention",
     "typescript",
     "기초",
