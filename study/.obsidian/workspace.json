@@ -195,8 +195,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "b75af67faefe7b86",
+  "active": "f0f601f610cb7352",
   "lastOpenFiles": [
+    "HTML",
     "javascript/고차함수,화살표함수.md",
     "javascript/기명함수,익명함수.md",
     "javascript/브라우저 렌더링.md",
@@ -222,7 +223,6 @@
     "react/이벤트처리.md",
     "react/참고_아키텍처.md",
     "react/상태관리.md",
-    "코드리뷰/코드리뷰 방법.md",
     "코드리뷰",
     "추천_extention",
     "typescript",
