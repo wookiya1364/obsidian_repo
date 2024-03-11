@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3015d4c047a11d57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTML/input.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "typescript/컴파일 과정.md",
+                "file": "HTML/input.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "typescript/컴파일 과정.md",
+                "file": "HTML/input.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "typescript/컴파일 과정.md"
+                "file": "HTML/input.md"
               }
             }
           }
@@ -195,8 +207,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f0f601f610cb7352",
+  "active": "3015d4c047a11d57",
   "lastOpenFiles": [
+    "typescript/컴파일 과정.md",
+    "HTML/input.md",
     "HTML",
     "javascript/고차함수,화살표함수.md",
     "javascript/기명함수,익명함수.md",
@@ -214,7 +228,6 @@
     "javascript/javascript.md",
     "javascript/Promise,async&await.md",
     "javascript/웹워커.md",
-    "typescript/컴파일 과정.md",
     "react/리렌더링.md",
     "react/strictmode.md",
     "기초/멀티프로세스, 멀티스레드.md",
