@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "typescript/컴파일 과정.md",
+                "file": "javascript/에러핸들링.md",
                 "mode": "preview",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "typescript/컴파일 과정.md",
+                "file": "javascript/에러핸들링.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "typescript/컴파일 과정.md",
+                "file": "javascript/에러핸들링.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "typescript/컴파일 과정.md"
+                "file": "javascript/에러핸들링.md"
               }
             }
           }
@@ -197,6 +197,12 @@
   },
   "active": "b75af67faefe7b86",
   "lastOpenFiles": [
+    "javascript/식별자.md",
+    "javascript/웹워커.md",
+    "javascript/이벤트버블링,캡쳐링,위임.md",
+    "javascript/에러핸들링.md",
+    "javascript/CSRF,XSS.md",
+    "typescript/컴파일 과정.md",
     "react/리렌더링.md",
     "react/strictmode.md",
     "javascript/브라우저 렌더링.md",
@@ -211,19 +217,13 @@
     "javascript/기명함수,익명함수.md",
     "javascript/블로킹,논블로킹.md",
     "javascript/render-blocking-resources.md",
-    "javascript/에러핸들링.md",
     "javascript/Promise,async&await.md",
-    "javascript/웹워커.md",
-    "javascript/이벤트버블링,캡쳐링,위임.md",
-    "javascript/CSRF,XSS.md",
-    "javascript/식별자.md",
     "javascript/GC.md",
     "javascript/javascript.md",
     "performance/브라우저메모리.md",
     "코드리뷰/코드리뷰 방법.md",
     "코드리뷰",
     "javascript/스프레드,레스트.md",
-    "추천_extention/vscode.md",
     "추천_extention",
     "typescript",
     "기초",
