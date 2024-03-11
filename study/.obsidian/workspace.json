@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "javascript/에러핸들링.md",
+                "file": "javascript/Promise,async&await.md",
                 "mode": "preview",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/에러핸들링.md",
+                "file": "javascript/Promise,async&await.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/에러핸들링.md",
+                "file": "javascript/Promise,async&await.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/에러핸들링.md"
+                "file": "javascript/Promise,async&await.md"
               }
             }
           }
@@ -197,10 +197,10 @@
   },
   "active": "b75af67faefe7b86",
   "lastOpenFiles": [
+    "javascript/에러핸들링.md",
     "javascript/식별자.md",
     "javascript/웹워커.md",
     "javascript/이벤트버블링,캡쳐링,위임.md",
-    "javascript/에러핸들링.md",
     "javascript/CSRF,XSS.md",
     "typescript/컴파일 과정.md",
     "react/리렌더링.md",
