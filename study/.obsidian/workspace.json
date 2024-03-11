@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/리렌더링.md",
+                "file": "typescript/컴파일 과정.md",
                 "mode": "preview",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/리렌더링.md",
+                "file": "typescript/컴파일 과정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "react/리렌더링.md",
+                "file": "typescript/컴파일 과정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "react/리렌더링.md"
+                "file": "typescript/컴파일 과정.md"
               }
             }
           }
@@ -197,6 +197,7 @@
   },
   "active": "b75af67faefe7b86",
   "lastOpenFiles": [
+    "react/리렌더링.md",
     "react/strictmode.md",
     "javascript/브라우저 렌더링.md",
     "기초/멀티프로세스, 멀티스레드.md",
@@ -219,7 +220,6 @@
     "javascript/GC.md",
     "javascript/javascript.md",
     "performance/브라우저메모리.md",
-    "react/리렌더링.md",
     "코드리뷰/코드리뷰 방법.md",
     "코드리뷰",
     "javascript/스프레드,레스트.md",
