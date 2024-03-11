@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "javascript/고차함수,화살표함수.md",
+                "file": "typescript/컴파일 과정.md",
                 "mode": "preview",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/고차함수,화살표함수.md",
+                "file": "typescript/컴파일 과정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/고차함수,화살표함수.md",
+                "file": "typescript/컴파일 과정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/고차함수,화살표함수.md"
+                "file": "typescript/컴파일 과정.md"
               }
             }
           }
@@ -197,6 +197,7 @@
   },
   "active": "b75af67faefe7b86",
   "lastOpenFiles": [
+    "javascript/고차함수,화살표함수.md",
     "javascript/기명함수,익명함수.md",
     "javascript/브라우저 렌더링.md",
     "javascript/블로킹,논블로킹.md",
@@ -206,7 +207,6 @@
     "performance/rAF 성능측정.md",
     "performance/브라우저메모리.md",
     "javascript/render-blocking-resources.md",
-    "javascript/고차함수,화살표함수.md",
     "javascript/에러핸들링.md",
     "javascript/CSRF,XSS.md",
     "javascript/GC.md",
