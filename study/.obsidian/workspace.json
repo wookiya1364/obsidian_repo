@@ -61,8 +61,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "javascript/브라우저 렌더링.md",
-                "mode": "source",
+                "file": "react/리렌더링.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/브라우저 렌더링.md",
+                "file": "react/리렌더링.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/브라우저 렌더링.md",
+                "file": "react/리렌더링.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/브라우저 렌더링.md"
+                "file": "react/리렌더링.md"
               }
             }
           }
@@ -197,6 +197,8 @@
   },
   "active": "b75af67faefe7b86",
   "lastOpenFiles": [
+    "react/strictmode.md",
+    "javascript/브라우저 렌더링.md",
     "기초/멀티프로세스, 멀티스레드.md",
     "기초/ㅇㅇ.md",
     "javascript/this,변수선언,호이스팅.md",
@@ -206,7 +208,6 @@
     "performance/rAF 성능측정.md",
     "javascript/고차함수,화살표함수.md",
     "javascript/기명함수,익명함수.md",
-    "javascript/브라우저 렌더링.md",
     "javascript/블로킹,논블로킹.md",
     "javascript/render-blocking-resources.md",
     "javascript/에러핸들링.md",
@@ -221,7 +222,6 @@
     "react/리렌더링.md",
     "코드리뷰/코드리뷰 방법.md",
     "코드리뷰",
-    "react/strictmode.md",
     "javascript/스프레드,레스트.md",
     "추천_extention/vscode.md",
     "추천_extention",
