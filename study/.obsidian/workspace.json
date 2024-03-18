@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "typescript/타입스크립트.md",
+                "file": "react/모듈화.md",
                 "mode": "preview",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "typescript/타입스크립트.md",
+                "file": "react/모듈화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "typescript/타입스크립트.md",
+                "file": "react/모듈화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "typescript/타입스크립트.md"
+                "file": "react/모듈화.md"
               }
             }
           }
@@ -209,33 +209,33 @@
   },
   "active": "3015d4c047a11d57",
   "lastOpenFiles": [
-    "typescript/컴파일 과정.md",
-    "typescript/타입스크립트.md",
-    "javascript/render-blocking-resources.md",
+    "react/상태관리.md",
+    "react/모듈화.md",
+    "react/리렌더링.md",
     "performance/rAF 성능측정.md",
+    "performance/브라우저메모리.md",
+    "javascript/this,변수선언,호이스팅.md",
+    "javascript/Promise,async&await.md",
+    "javascript/javascript.md",
+    "javascript/스프레드,레스트.md",
+    "코드리뷰/코드리뷰 방법.md",
+    "javascript/에러핸들링.md",
+    "javascript/식별자.md",
+    "HTML/input.md",
+    "추천_extention/vscode.md",
+    "기초/ㅇㅇ.md",
+    "기초/멀티프로세스, 멀티스레드.md",
+    "typescript/타입스크립트.md",
+    "typescript/컴파일 과정.md",
+    "javascript/render-blocking-resources.md",
     "react/strictmode.md",
     "react/이벤트처리.md",
     "react/참고_아키텍처.md",
-    "기초/ㅇㅇ.md",
-    "기초/멀티프로세스, 멀티스레드.md",
     "기초/ㅇㅇ..md",
-    "react/모듈화.md",
-    "HTML/input.md",
     "HTML",
     "javascript/고차함수,화살표함수.md",
     "javascript/기명함수,익명함수.md",
     "javascript/브라우저 렌더링.md",
-    "javascript/블로킹,논블로킹.md",
-    "javascript/이벤트버블링,캡쳐링,위임.md",
-    "javascript/식별자.md",
-    "javascript/스프레드,레스트.md",
-    "performance/브라우저메모리.md",
-    "javascript/에러핸들링.md",
-    "javascript/CSRF,XSS.md",
-    "javascript/GC.md",
-    "javascript/javascript.md",
-    "javascript/Promise,async&await.md",
-    "javascript/웹워커.md",
     "코드리뷰",
     "추천_extention",
     "typescript",
