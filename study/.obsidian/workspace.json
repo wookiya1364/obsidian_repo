@@ -221,6 +221,7 @@
   },
   "active": "44073d79d16c95df",
   "lastOpenFiles": [
+    "react/모듈화.md",
     "기초/ㅇㅇ.md",
     "기초/ㅇㅇ..md",
     "HTML/input.md",
@@ -247,7 +248,6 @@
     "기초/멀티프로세스, 멀티스레드.md",
     "javascript/this,변수선언,호이스팅.md",
     "react/이벤트처리.md",
-    "react/참고_아키텍처.md",
     "코드리뷰",
     "추천_extention",
     "typescript",
