@@ -24,3 +24,4 @@ function func() {
 
 func();
 ```
+
