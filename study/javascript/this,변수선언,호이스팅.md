@@ -1,3 +1,94 @@
+# this
+
+### javascript
+- 전역 컨텍스트: 전역 실행 컨텍스트에서 this는 전역 객체를 가리킨다. 
+브라우저에서는 window, Node.js에서는 global 객체이다.
+- 함수 호출: 일반 함수로 호출할 때 this는 전역 객체를 가리키거나, 엄격 모드('use strict';)에서는 undefined
+- 메서드 호출: 객체의 메서드로 호출할 때 this는 메서드를 호출한 객체를 가리킨다.
+- 생성자 함수: new 키워드를 사용하여 생성자 함수를 호출하면, this는 새로 생성된 객체를 가리킨다.
+- call, apply, bind 메소드: 이 메소드들을 사용하여 함수를 호출하면, this는 메소드의 첫 번째 인자로 명시적으로 설정된 객체를 가리킨다.
+
+### NodeJS
+- 전역 스코프: Node.js에서 전역 스코프의 this는 빈 객체를 가리키며, global 객체는 this를 통해 접근할 수 없다. global 객체 자체에 직접 접근해야 한다.
+- 모듈 스코프: Node.js의 모듈에서 this는 현재 모듈을 가리키는 module.exports 객체를 참조한다. 이는 각 모듈이 별도의 스코프를 가지기 때문이다.
+
+### 호출 방식에 따른 this 차이
+- 직접 호출: 일반 함수로 this를 직접 호출하면, this는 전역 객체(브라우저) 또는 undefined(Node.js 엄격 모드)를 가리킨다.
+- 메서드로 호출: 객체의 메서드로 함수를 호출하면, this는 그 메서드를 소유한 객체를 가리킨다.
+- 화살표 함수: 화살표 함수에서 this는 함수가 생성된 시점의 this 컨텍스트를 "캡처"한다. 즉, 화살표 함수의 this는 정적으로 결정되며, 실행 시점에서 변경되지 않는다.
+
+
+### 사용예시
+#### 생성자 함수
+```jsx
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+  this.describe = function() {
+    console.log(`이름: ${this.name}, 나이: ${this.age}`);
+  };
+}
+
+const person1 = new Person('홍길동', 30);
+person1.describe(); // "이름: 홍길동, 나이: 30" 출력
+```
+#### 직접 호출
+```jsx
+function showContext() {
+  console.log(this);
+}
+
+showContext(); // 브라우저에서는 window를 출력, Node.js 엄격 모드에서는 undefined
+```
+#### 메서드로 호출
+```jsx
+const obj = {
+  name: 'Grimoire',
+  greet: function() {
+    console.log(`Hello, ${this.name}!`);
+  }
+};
+
+obj.greet(); // "Hello, Grimoire!" 출력
+```
+#### 화살표 함수 호출
+```jsx
+const obj = {
+  name: 'Grimoire',
+  greet: () => {
+    console.log(`Hello, ${this.name}!`);
+  }
+};
+
+obj.greet(); // 브라우저에서는 "Hello, undefined!" 출력 (화살표 함수의 this는 전역 객체 window를 가리키며, window.name은 일반적으로 정의되지 않음)
+```
+#### call, apply, bind 메소드
+```jsx
+function callGreet() {
+  console.log(`안녕하세요, ${this.name}입니다.`);
+}
+function applyUpdate(age, occupation) {
+  this.age = age;
+  this.occupation = occupation;
+}
+function bindIntroduce() {
+  console.log(`저는 ${this.name}이고, 직업은 ${this.occupation}입니다.`);
+}
+
+const callUser = { name: '이순신' };
+callGreet.call(callUser); // "안녕하세요, 이순신입니다."
+
+const applyPerson = { name: '장보고' };
+applyUpdate.apply([applyPerson, '개발자']);
+console.log(applyPerson); // { name: '장보고' }
+
+const bindUser = { name: '유관순', occupation: '독립운동가' };
+const bind = bindIntroduce.bind(bindUser);
+bind(); // "저는 유관순이고, 직업은 독립운동가입니다."
+```
+
+---
+
 #### this가 가르키는 것 (this 바인딩)
 
 |호출|참조객체(단순호출)|참조객체(엄격모드)|
