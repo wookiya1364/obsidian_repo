@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "914b4cb71fb3b5ac",
+        "id": "c544d6061ccd31ef",
         "type": "tabs",
         "children": [
           {
-            "id": "f960f33074bd1902",
+            "id": "6861fd9c4da35b9e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "study/잡/주고받기.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study/잡/주고받기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study/잡/주고받기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "study/잡/주고받기.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,15 +138,24 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f960f33074bd1902",
+  "active": "6861fd9c4da35b9e",
   "lastOpenFiles": [
+    "study/잡/주고받기.md",
+    "study/javascript/this,변수선언,호이스팅.md",
+    "study/javascript/Promise,async&await.md",
+    "study/javascript/render-blocking-resources.md",
+    "study/javascript/모노레포.md",
+    "study/javascript/리플로우 최소화 전략.md",
+    "study/javascript/고차함수,화살표함수.md",
+    "study/javascript/기명함수,익명함수.md",
+    "study/javascript/브라우저 렌더링.md",
+    "study/javascript/블로킹,논블로킹.md",
+    "study/javascript/식별자.md",
+    "study/javascript/에러핸들링.md",
+    "study/javascript/웹워커.md",
+    "study/javascript/이벤트버블링,캡쳐링,위임.md",
     "study/번들러/번들러.md",
     "study/잡/e.md",
-    "study/잡/주고받기.md",
-    "study/javascript/render-blocking-resources.md",
-    "study/javascript/Promise,async&await.md",
-    "study/javascript/this,변수선언,호이스팅.md",
-    "study/javascript/고차함수,화살표함수.md",
     "study/react/상태관리.md",
     "opensource/[번역]FinalizationRegistry_API_.md",
     "opensource/[번역]FinalizationRegistry_API.pdf",
@@ -170,15 +171,6 @@
     "study/react/이벤트처리.md",
     "study/react/참고_아키텍처.md",
     "study/typescript/react.md",
-    "study/typescript/타입스크립트.md",
-    "study/react/children.md",
-    "study/react/strictmode.md",
-    "study/javascript/기명함수,익명함수.md",
-    "study/HTML/input.md",
-    "study/브라우저/SEO.md",
-    "study/브라우저/브라우저메모리.md",
-    "study/javascript/CSRF,XSS.md",
-    "study/javascript/에러핸들링.md",
     "study/리팩토링",
     "study/잡",
     "study/알고리즘, 문제풀이",
