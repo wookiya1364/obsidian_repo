@@ -79,8 +79,7 @@ const callUser = { name: '이순신' };
 callGreet.call(callUser); // "안녕하세요, 이순신입니다."
 
 const applyPerson = { name: '장보고' };
-applyUpdate.apply([applyPerson, '개발자']);
-console.log(applyPerson); // { name: '장보고' }
+applyUpdate.apply(applyPerson, [11,'개발자']); // {name: '장보고', age: 11, occupation: '개발자'}
 
 const bindUser = { name: '유관순', occupation: '독립운동가' };
 const bind = bindIntroduce.bind(bindUser);
